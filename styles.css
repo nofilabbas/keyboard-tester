@@ -1,0 +1,73 @@
+h1{
+  text-align: center;
+  padding: 20px;
+}
+
+div{
+  border: 1px solid;
+  background-color: white;
+  border-radius: 7px;
+  height: 54px;
+  width: 54px;
+  display: inline-grid;
+  align-items: center;
+  margin: 6px;
+  text-align: center;
+  outline: none;
+  box-shadow: 4px 4px 5px #332f2f , -4px -4px 5px #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.keyboard{
+  padding: 80px 0;
+  background-color: black;
+  text-align: center;
+}
+.first-row{
+  width: 52px;
+  height: 20px;
+}
+.delete{
+  height: 20px;
+}
+.tab{
+  width: 78px;
+}
+.danda{
+  width: 68px;
+}
+.capslock{
+  width: 95px;
+}
+.backspace{
+  width: 104px;
+}
+.sigma{
+  width: 42px;
+}
+.enter{
+  width: 120px;
+}
+.shift{
+  width: 141px;
+}
+.space{
+  width: 365px;
+}
+.updown{
+  background-color: inherit;
+  border: none;
+  margin: 4px 14px 4px 4px;
+  box-shadow: none;
+}
+.up{
+  width: 54px;
+  height: 22px;
+}
+.down{
+  width: 54px;
+  height: 22px;
+}
+.pressed{
+  background-color: green;
+  animation: keyPress .5s ease;
+}
